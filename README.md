@@ -1,2 +1,2 @@
 # miniProject
-Gesture-controlled Smart Home System
+Cloud-based audio control system using MQTT and Raspberry Pi
