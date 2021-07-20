@@ -1,5 +1,6 @@
 # Import standard python modules.
 import sys
+import data
 
 # uses the MQTTClient
 from Adafruit_IO import MQTTClient
@@ -8,14 +9,14 @@ import music
 # Set to your Adafruit IO key.
 # Remember, your key is a secret,
 # so make sure not to publish it when you publish this code!
-ADAFRUIT_IO_KEY = 'aio_Xzbz64FRIrQbmaNZDZXlbgEtXlCE'
+ADAFRUIT_IO_KEY = data.dict['KEY']
 
 # Set to your Adafruit IO username.
 # (go to https://accounts.adafruit.com to find your username)
-ADAFRUIT_IO_USERNAME = 'manumb'
+ADAFRUIT_IO_USERNAME = data.dict['USERNAME']
 
 # Set to the ID of the feed to subscribe to for updates.
-FEED_ID = 'music'
+FEED_ID = data.dict['FEED']
 
 
 # Define callback functions which will be called when certain events happen.
