@@ -1,10 +1,3 @@
-"""
-'subscribe.py'
-==========================
-Subscribes to an Adafruit IO Feed
-
-Author(s): Brent Rubell, Todd Treece for Adafruit Industries
-"""
 # Import standard python modules.
 import sys
 
@@ -23,6 +16,7 @@ ADAFRUIT_IO_USERNAME = 'manumb'
 
 # Set to the ID of the feed to subscribe to for updates.
 FEED_ID = 'music'
+
 
 # Define callback functions which will be called when certain events happen.
 def connected(client):
