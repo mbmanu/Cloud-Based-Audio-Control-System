@@ -9,14 +9,14 @@ import music
 # Set to your Adafruit IO key.
 # Remember, your key is a secret,
 # so make sure not to publish it when you publish this code!
-ADAFRUIT_IO_KEY = <YOUR ADAFRUIT_IO_KEY>
+ADAFRUIT_IO_KEY = '<YOUR ADAFRUIT_IO_KEY>'
 
 # Set to your Adafruit IO username.
 # (go to https://accounts.adafruit.com to find your username)
-ADAFRUIT_IO_USERNAME = <YOUR_USERNAME>
+ADAFRUIT_IO_USERNAME = '<YOUR_USERNAME>'
 
 # Set to the ID of the feed to subscribe to for updates.
-FEED_ID = <YOUR_FEED_ID>
+FEED_ID = '<YOUR_FEED_ID>'
 
 
 # Define callback functions which will be called when certain events happen.
