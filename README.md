@@ -1,4 +1,4 @@
-# CLOUD-BASED AUDIO CONTOL SYSTEM
+# CLOUD-BASED AUDIO CONTROL SYSTEM
 Mini project built using Raspberry Pi, MQTT service, and Adafruit Cloud.
 
 ## Setup
